@@ -2,6 +2,10 @@
   "IsEncrypted": false,
   "Values": {
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated"
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+
+    "OpenApi__ForceHttps": "true",
+    "OpenApi__RunOnCodespaces": "true",
+    "OpenApi__HostNames": "https://{{CODESPACE_NAME}}-7071.preview.app.github.dev/api"
   }
 }
